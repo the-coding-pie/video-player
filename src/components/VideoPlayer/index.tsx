@@ -53,7 +53,7 @@ const VideoPlayer = ({ slug, thumbnailUrl, mediaUrl }: Props) => {
       updatePlaybackState(videoEl.currentTime, !videoEl.paused);
     };
 
-    const handlePipClose = (e: any) => {
+    const handlePipClose = () => {
       setPipActive(false);
       document.exitPictureInPicture();
       clearVideo();

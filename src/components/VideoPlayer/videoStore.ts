@@ -1,5 +1,4 @@
 import { create } from "zustand";
-import type { IVideoObj } from "../../types/interface";
 
 interface VideoStore {
   isPipActive: boolean;
